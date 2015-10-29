@@ -121,6 +121,7 @@
     <ClCompile Include="EncryptClass.cpp" />
     <ClCompile Include="FileClass.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="UpperCaseClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CopyClass.h" />

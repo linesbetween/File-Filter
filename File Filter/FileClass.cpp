@@ -7,7 +7,6 @@ void FileClass::doFilter(ifstream &input, ofstream &output) {
 	while(!input.eof())
 	{
 		input.get(letter);
-		transform(letter);
-		output.put(letter);
+		output.put(transform(letter));
 	}
 }
